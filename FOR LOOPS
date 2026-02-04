@@ -1,0 +1,4 @@
+# Counting Up By +1
+for my_variable in range(0,11) :
+  print(my_variable)
+print("WooHoo")
