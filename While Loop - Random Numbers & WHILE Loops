@@ -1,0 +1,14 @@
+import random
+
+print("Starting Code Challenge")
+print("Random Number Generating...")
+
+random_number = 0
+
+print("Starting While Loop")
+while random_number != 10:
+    random_number = random.randint(1,10)
+    print(random_number)
+
+print("Ending While Loop - Test Random Number")
+print("Ending Code Challenge")
