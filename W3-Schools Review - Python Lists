@@ -1,0 +1,7 @@
+re = ["Leon", "Chris", "Claire"]
+print(re)
+re = ["Leon", "Chris", "Claire", "Leon", 9, True]
+print(re)
+print(len(re))
+print(type(re))
+re = list(("Leon", "Chris", "Claire"))
