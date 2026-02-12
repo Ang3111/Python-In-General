@@ -1,0 +1,70 @@
+# Python Lists
+
+#Challenge 1
+x = 42
+print(x)
+print(type(x))
+# re-assign the variable 'x' to be a list with the following elements:
+# 1,3,5,23,9,14
+list = (x,1,3,5,23,9,14)
+print(list)
+print(type(x))
+
+#Challenge 2
+x = 42
+print(x)
+print(type(x))
+print("re-assign the variable 'x' to be a list with the following elements:")
+# 1,3,5,23,9,14
+list = (x,1,3,5,23,9,14)
+print(list)
+print('Creating a list of mixted Type objects')
+list = ['Leon', 'Lewis', 25, True, 4.2]
+print(list)
+print('x is now a list of mixed objects')
+print(x)
+print(type(x))
+
+#Challenge 3
+# Add more hard coded items to your list
+print('Add more hard coded items to your list')
+x = 42
+print(x)
+print(type(x))
+print("re-assign the variable 'x' to be a list with the following elements:")
+# 1,3,5,23,9,14
+list = (x,1,3,5,23,9,14,44)
+print(list)
+print('Creating a list of mixted Type objects')
+list = ['Leon', 'Lewis', 25, True, 4.2, False, 44, 'Lewis', 26, True, float(3)]
+print(list)
+print('x is now a list of mixed objects')
+print(x)
+print(type(x))
+print(len(list))
+print(type(list))
+
+#Challenge 4
+list = ['Leon', 'Lewis', 25, True, 4.2, False, 44, 'Lewis', 26, True, float(3)]
+print(list[0])
+print(type(list[0]))
+print(list[1])
+print(type(list[1]))
+print(list[2])
+print(type(list[2]))
+print(list[5])
+print(type(list[5]))
+print(list[6])
+print(type(list[6]))
+print(list[7])
+print(type(list[7]))
+print(list[8])
+print(type(list[8]))
+print(list[9])
+print(type(list[9]))
+print(list[10])
+print(type(list[10]))
+
+#The Extra Challenge
+list = ('Leon', 'RE 9', 25, True, 13, False, 44, 'Lewis', 26, True, float(3), "Kept you waiting huh?", float(13))
+print(list)
