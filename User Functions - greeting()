@@ -1,0 +1,21 @@
+name = input('What is your name? ')
+lang = input('What is your language? Pick from: es, fr, en, it: ')
+
+if lang in ['es', 'fr', 'en', 'it']:
+    def greet(lang):
+        if lang == 'es':
+            return 'Hola'
+        elif lang == 'fr':
+            return 'Bonjour'
+        elif lang == 'it':
+            return 'Salve'
+        else:
+            return 'Hello'
+
+    def main():
+        print(greet(lang), name)
+    
+    main()
+
+else:
+    print("Your language isn't supported. Yet.")
