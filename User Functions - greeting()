@@ -1,3 +1,5 @@
+#Explination:
+#This is saying that when you inpt your name and language, if your language is in the list it prints the defined greet, language, and the greeting in that language.
 name = input('What is your name? ')
 lang = input('What is your language? Pick from: es, fr, en, it: ')
 
